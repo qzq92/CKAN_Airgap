@@ -1,0 +1,16 @@
+[Unit]
+Description=Post-CKAN Service
+After=docker.service systemd-networkd.service systemd-resolved.service ckan.service
+Requires=docker.service ckan.service
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=5
+WorkingDirectory=/home/administrator/dockers/ckan/contrib/docker
+ExecStart=/bin/bash post_ckan_initialisation.sh
+TimeoutStopSec=1200
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
