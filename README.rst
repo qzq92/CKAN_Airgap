@@ -83,3 +83,7 @@ It is open and licensed under the GNU Affero General Public License (AGPL) v3.0
 whose full text may be found at:
 
 http://www.fsf.org/licensing/licenses/agpl-3.0.html
+
+Additional Notes
+-------------------
+The CKAN version in this repository is 2.8.4 with Dockerfile modified to include additional CKAN plugins for docker-build process. You may compare the contents with the original Dockerfile from the official CKAN github repository. The docker-compose file in contrib/docker folder is also modified to facilitate the deployment of customised CKAN and its dependent containers on a local machine. Other scripting files and service files are included to facilitate the automatic startup of containerised CKAN on the local machine upon reboot. 
