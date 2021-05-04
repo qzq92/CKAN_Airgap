@@ -28,7 +28,7 @@ tools and more. Read more at `ckan.org <http://ckan.org/>`_.
 
 Documentation
 ------------
-I have provided my personal documentation as a .odt file for reference on how to integrate CKAN with Windows Active Directory, purging of user accounts and data ,etc.
+Attached documentation in .odt file provides information on how to setup, integrate CKAN with Windows Active Directory, purging of user accounts and data. Backing up of data is not included.
 
 Installation
 ------------
